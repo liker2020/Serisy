@@ -111,10 +111,13 @@ background-size: contain;
 	background-color: rgb(232, 218, 191);
     flex-wrap: wrap;
 	justify-content: space-around;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font: 1.4rem Comic Sans MS;
 }
 .reservation-container_text{ 
 margin-left: 20px; 
-font-size: 25px;
+font: 1.6rem Comic Sans MS;
 flex: 0 0 10%;
 }
 .reservation-container_hotel{
@@ -187,10 +190,31 @@ select{
 .content{
 	width: 80%;
 	background-color: rgb(242, 228, 202);
-	padding-top: 15px;
+	padding-top: 20px;
 	padding-left: 100px;
 	padding-bottom: 100px;
 	padding-right: 30px;
 	margin-left: auto;
 	margin-right: auto;
+font: 2.1rem/1.8rem Gabriola;
+}
+i{
+	font: 2.3rem Monotype Corsiva;
+	text-align: center;
+}
+p{
+	font: 20px Comic Sans MS;
+}
+.goroda{
+height: 3%;
+width: 90%;
+background-color: rgb(232, 218, 191);
+align-self: center;
+}
+
+.galereya{
+
+}
+.podval{
+	
 }
