@@ -67,7 +67,7 @@ background-size: contain;
 	/*положение по оси z*/
 	position: relative;
 	z-index: 2;
-	margin-top: -390px;
+	margin-top: -450px;
 	
 }
 @media (max-width: 900px){
@@ -206,15 +206,69 @@ p{
 	font: 20px Comic Sans MS;
 }
 .goroda{
-height: 3%;
-width: 90%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+padding: 20px 0px;
+width: 95%;
 background-color: rgb(232, 218, 191);
-align-self: center;
+margin: 0px auto;
+
 }
+.goroda>a{
+	font: 2rem Comic Sans MS;
+	text-decoration: none;
+	color: black;
+}
+
 
 .galereya{
-
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.galereya1{
+	padding: 15px;
+	margin-top: 10px;
+	background-color:rgb(242,228,203);
+	width: 200px;
+	height: 138px;
+}
+.galereya1>img {  
+	transition:width 0.5s ease;
+ }
+.galereya1:hover img { 
+	width:50%;
+	position: fixed;
+	top: 2%;
+	left: 25%;
+	z-index: 8;
 }
 .podval{
-	
+	border-top: solid;
+	border-width: 15px;
+	border-color:rgb(233,219,192) ;
+	margin-bottom: 20px;
+}
+.podval1{
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.podval1_1{
+	font: italic 1.5rem Sitka Subheading;
+}
+.podval2{
+	display: flex;
+	justify-content: center;
+}
+.podval2>a{
+margin-right: 40px;
 }

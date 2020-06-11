@@ -13,4 +13,5 @@ window.addEventListener('scroll', function() {
   var d = new Date();
   document.getElementById('davaToday2').valueAsDate = new Date(d.getTime() + 86400000);
 
-  
+
+
