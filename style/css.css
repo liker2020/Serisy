@@ -1,7 +1,7 @@
 /*Убрать*/
 body{
 	margin: 0px;
-height: 200%;
+height: 230%;
 }
 .rus{
 	height: 100%;
@@ -239,7 +239,7 @@ margin: 0px auto;
 	height: 138px;
 }
 .galereya1>img {  
-	transition:width 0.5s ease;
+	transition:0.9s cubic-bezier(0.4, 0, 0.2, 1);
  }
 .galereya1:hover img { 
 	width:50%;
